@@ -57,6 +57,7 @@ body {
 .msg21 { top: 28%; left: -380px; animation-delay: 40s; }
 .msg22 { top: 35%; left: -450px; animation-delay: 42s; }
 .msg23 { top: 42%; left: -350px; animation-delay: 44s; }
+.msg24 { top: 48%; left: -400px; animation-delay: 46s; }
 
 @keyframes floatMessage {
     0% { transform: translateX(0); opacity: 0; }
