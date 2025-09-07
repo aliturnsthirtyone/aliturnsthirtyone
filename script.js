@@ -128,11 +128,12 @@ document.addEventListener('DOMContentLoaded', function() {
         message.addEventListener('animationiteration', function() {
             // Add slight color variation on each iteration
             const colors = [
-                'rgba(255, 182, 193, 0.2)',
-                'rgba(255, 160, 122, 0.2)',
-                'rgba(221, 160, 221, 0.2)',
-                'rgba(173, 216, 230, 0.2)',
-                'rgba(255, 218, 185, 0.2)'
+                'rgba(255, 255, 255, 0.9)',
+                'rgba(255, 255, 255, 0.85)',
+                'rgba(255, 255, 255, 0.8)',
+                'rgba(240, 248, 255, 0.9)',
+                'rgba(248, 248, 255, 0.85)',
+                'rgba(255, 255, 255, 0.95)'
             ];
             this.style.color = colors[Math.floor(Math.random() * colors.length)];
         });
