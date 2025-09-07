@@ -279,8 +279,8 @@ body {
 
 /* Photos */
 .photos-grid {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 30px;
     margin-top: 40px;
     max-width: 500px;
