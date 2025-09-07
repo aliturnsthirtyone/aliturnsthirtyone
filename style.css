@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #e8f0ff 0%, #f0e8ff 100%);
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
     min-height: 100vh;
     overflow-x: hidden;
     position: relative;
@@ -26,11 +26,12 @@ body {
 
 .message {
     position: absolute;
-    color: rgba(255, 255, 255, 0.15);
+    color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     font-weight: 300;
     white-space: nowrap;
     animation: floatMessage 20s infinite linear;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .msg1 { top: 10%; left: -300px; animation-delay: 0s; }
@@ -49,6 +50,10 @@ body {
 .msg14 { top: 65%; left: -280px; animation-delay: 26s; }
 .msg15 { top: 75%; left: -320px; animation-delay: 28s; }
 .msg16 { top: 85%; left: -300px; animation-delay: 30s; }
+.msg17 { top: 5%; left: -350px; animation-delay: 32s; }
+.msg18 { top: 12%; left: -280px; animation-delay: 34s; }
+.msg19 { top: 18%; left: -400px; animation-delay: 36s; }
+.msg20 { top: 22%; left: -320px; animation-delay: 38s; }
 
 @keyframes floatMessage {
     0% { transform: translateX(0); opacity: 0; }
